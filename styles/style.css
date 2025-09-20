@@ -232,6 +232,7 @@
 }
 .about__column{
     display: grid;
+    gap: 72px;
     grid-template-columns: 1fr 2fr;
     list-style-type: none;
 }
