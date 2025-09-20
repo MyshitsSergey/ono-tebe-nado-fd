@@ -117,7 +117,7 @@
     line-height: 28px;
     text-align: left;
     text-transform: uppercase;
-    word-spacing: 19px;
+    word-spacing: 18px;
 }
 .bet-button {
     box-sizing: border-box;
@@ -205,11 +205,11 @@
 }
 .lots__look-more-link {
     display: block;
-    padding-top: 25px;
-    padding-left: 40px;
+    padding-top: 34px;
+    padding-left: 45px;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 100%;
+    font-size: 22px;
+    line-height: 25px;
     text-align: left;
 }
 .lots__look-more-link_text {
@@ -219,12 +219,11 @@
 
 /*Блок  об аукционе*/
 .about {
-    margin: 120px 40px 0;
+    margin: 120px 24px 0;
 }
 .about__column {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 72px;
     list-style-type: none;
 }
 .about__logo {
@@ -248,13 +247,14 @@
     background-repeat: no-repeat;
 }
 .about__title {
-    padding-top: 136px;
+    padding-top: 140px;
     padding-bottom: 100px;
     font-weight: 700;
     font-size: 40px;
     line-height: 100%;
     text-align: left;
     text-transform: uppercase;
+    padding-left: 10px;
 }
 .about__text {
     display: grid;
@@ -263,6 +263,8 @@
     font-size: 20px;
     line-height: 24px;
     text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /*Блок футер*/
@@ -292,6 +294,7 @@
 .footer__social-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-self: end;
     gap: 48px;
     list-style-type: none;
 }
