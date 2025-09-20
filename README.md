@@ -1,2 +1,2 @@
 https://github.com/MyshitsSergey/ono-tebe-nado-fd
-Создание проекта "Оно иебе надо"
+Создание проекта "Оно тебе надо"
