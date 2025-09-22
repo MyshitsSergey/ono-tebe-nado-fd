@@ -7,7 +7,7 @@
 }
 .header__links-list {
     display: flex;
-    gap: 31px;
+    gap: 32px;
     list-style: circle;
 }
 .header__link {
@@ -27,15 +27,16 @@
 /* Блок с лого*/
 .header__logo {
     display: block;
-    width: 148px;
+    width: 136px;
     height: 105px;
 }
 
 /*Блок адрес*/
 .address {
     justify-self: end;
-    max-width: 240px;
+    max-width: 241px;
     font-style: normal;
+    line-height: 24px;
 }
 .addres_list-item {
     display: flex;
@@ -64,10 +65,8 @@
 /* Блок оверлей*/
 .overlay {
     position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0.60;
-    background: rgba(0,0,0,0.4);
+    inset: 0;
+    background: rgba(0,0,0,0.6);
 }
 
 /*Блок с ОНО*/
@@ -82,7 +81,7 @@
     font-weight: 700;
     font-size: 100px;
     line-height: 117px;
-    letter-spacing: 32px;
+    letter-spacing: 30px;
     text-transform: uppercase;
 }
 .aligned-text_left {
@@ -90,14 +89,14 @@
 }
 .aligned-text_center {
     display: block;
-    padding-top: 15px;
+    padding-top: 17px;
     text-align: center;
+    padding-right: 6px;
 }
 .aligned-text_right {
     display: block;
-    padding-top: 20px;
-    padding-left: 20px;
-    text-align: right;
+    padding-top: 18px;
+    padding-left: 613px;
 }
 
 /*Надпись и кнопка*/
@@ -107,8 +106,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 106px;
-    padding: 118px 50px 40px;
+    gap: 105px;
+    padding: 108px 49px 40px;
     color: white;
 }
 .letter-spacing-extended {
@@ -122,7 +121,7 @@
 .bet-button {
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 1);
-    padding: 12px 30px;
+    padding: 11px 33px;
     background-color: transparent;
 }
 .cover__description-text {
@@ -136,9 +135,9 @@
 
 /*Лоты*/
 .lots {
-    margin-top: 180px;
-    margin-right: 24px;
-    margin-left: 24px;
+    margin-top: 179px;
+    margin-right: 22px;
+    margin-left: 22px;
 }
 .lots__card-list {
     display: grid;
@@ -146,7 +145,7 @@
     gap: 21px ;
 }
 .lots__heading {
-    padding-bottom: 20px;
+    padding-bottom: 28px;
     padding-left: 40px;
     font-weight: 700;
     font-size: 40px;
@@ -157,24 +156,21 @@
     width: 334px;
     min-height: 596px;
     list-style-type: none;
+    background-position: center;
+    background-size: cover;
 }
-.lots__card-list-item-image_left {
+.lots__card-list-item-image_people {
     background-image: url("../images/card-lot-01.jpg");
-    background-position: center;
-    background-size: cover;
 }
-.lots__card-list-item-image_center {
+.lots__card-list-item-image_book {
     background-image: url("../images/card-lot-02.jpg");
-    background-position: center;
-    background-size: cover;
 }
-.lots__card-list-item-image_right {
+.lots__card-list-item-image_painting {
     background-image: url("../images/card-lot-03.jpg");
-    background-position: center;
-    background-size: cover;
 }
 .card-link {
     height: 100%;
+    text-decoration: none;
 }
 .card {
     position: relative;
@@ -184,7 +180,7 @@
     height: 100%;
 }
 .card__title {
-    z-index: 3;
+   z-index: 3;
    padding: 48px 40px 0 ;
    color: white;
    font-weight: 700;
@@ -205,14 +201,17 @@
 }
 .lots__look-more-link {
     display: block;
-    padding-top: 34px;
-    padding-left: 45px;
+    width: fit-content;
+    margin-top: 30px;
+    margin-left: 39px;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 25px;
     text-align: left;
 }
+
 .lots__look-more-link_text {
+    width: fit-content;
     border-bottom:  1px solid rgba(0, 0, 0, 1);
     text-transform: lowercase;
 }
@@ -229,7 +228,8 @@
 .about__logo {
     display: flex;
     justify-content: center;
-    padding-top: 35px;
+    padding-top: 32px;
+    padding-right: 21px;
 }
 .about__logo-image-black {
     display: flex;
@@ -247,9 +247,9 @@
     background-repeat: no-repeat;
 }
 .about__title {
-    padding-top: 140px;
-    padding-bottom: 100px;
-    padding-left: 10px;
+    padding-top: 136px;
+    padding-bottom: 104px;
+    padding-left: 6px;
     font-weight: 700;
     font-size: 40px;
     line-height: 100%;
@@ -259,8 +259,8 @@
 .about__text {
     display: grid;
     gap: 24px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 6px;
+    padding-left: 7px;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -272,9 +272,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
-    min-height: 180px;
+    
     margin-top: 180px;
-    padding: 0 50px 0;
+    padding: 0 50px 82px;
 }
 .footer__menu-list {
     font-weight: 400;
