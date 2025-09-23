@@ -90,13 +90,17 @@
 .aligned-text_center {
     display: block;
     padding-top: 17px;
-    text-align: center;
     padding-right: 6px;
+    text-align: center;
 }
 .aligned-text_right {
     display: block;
     padding-top: 18px;
-    padding-left: 613px;
+    padding-right: 34px;
+    text-align: right;
+}
+.aligned-text_last-letter{
+     letter-spacing: normal;
 }
 
 /*Надпись и кнопка*/
